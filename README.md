@@ -16,30 +16,68 @@ The domain is organized to provide a logical, user-friendly structure for access
 
 ```plaintext
 statistix.in/
-├── population/
-│   ├── global-statistics/
-│   ├── regional-data/
-│   └── trends/
-├── religious-demographics/
-│   ├── distribution/
-│   ├── growth-trends/
-│   └── analysis/
-├── projections/
-│   ├── population-forecast/
-│   ├── demographic-changes/
-│   └── predictive-models/
-├── visualization/
-│   ├── charts/
-│   ├── graphs/
-│   └── templates/
+├── statistics/
+│   ├── global/
+│   │   ├── population/
+│   │   ├── religious/
+│   │   ├── economic/
+│   │   └── social/
+│   ├── regional/
+│   │   ├── asia/
+│   │   ├── europe/
+│   │   ├── americas/
+│   │   └── africa/
+│   └── country/
+│       ├── india/
+│       ├── china/
+│       └── [other-countries]/
+│
 ├── maps/
-│   ├── demographic-maps/
-│   ├── population-density/
-│   └── regional-analysis/
-└── tools/
-    ├── chart-maker/
-    ├── map-generator/
-    └── data-analysis/
+│   ├── demographic/
+│   │   ├── population-density/
+│   │   ├── age-distribution/
+│   │   └── religious-distribution/
+│   ├── thematic/
+│   │   ├── choropleth/
+│   │   ├── heat-maps/
+│   │   └── dot-density/
+│   └── custom/
+│       ├── templates/
+│       └── builder/
+│
+├── tools/
+│   ├── visualization/
+│   │   ├── chart-maker/
+│   │   ├── graph-generator/
+│   │   └── infographics/
+│   ├── analysis/
+│   │   ├── trend-analyzer/
+│   │   ├── comparative-tools/
+│   │   └── projections/
+│   └── export/
+│       ├── reports/
+│       ├── datasets/
+│       └── visuals/
+│
+├── insights/
+│   ├── reports/
+│   │   ├── annual/
+│   │   ├── quarterly/
+│   │   └── special/
+│   ├── trends/
+│   │   ├── current/
+│   │   ├── historical/
+│   │   └── projected/
+│   └── analysis/
+│       ├── demographic/
+│       ├── geographic/
+│       └── comparative/
+│
+└── resources/
+    ├── documentation/
+    ├── tutorials/
+    └── api/
+    
 ```
 
 This architecture ensures users can easily find relevant data, visualization tools, and analysis features.
